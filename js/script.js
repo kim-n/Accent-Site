@@ -14,7 +14,6 @@ $(function() {
        $("body > div").addClass(this.className)
        
       document.title = document.title.substring(0,24) + " " + this.className;
-      console.log($("body").css("background"))
     });
 
     //PLAY SOUND
@@ -30,6 +29,7 @@ $(function() {
       else {
         $(this.firstChild).attr("src", "http://translate.google.com/translate_tts?tl="+accent+"&q="+words)
         this.firstChild.play()
+        console.log("http://translate.google.com/translate_tts?tl="+accent+"&q="+words)
       };
 
     });
