@@ -1,7 +1,5 @@
-### Accents
-===
-####Kimberly Narine
-
+### Accents 
+#####Kimberly Narine
 [LINK!](kim-n.github.io/Accent-Site)
 
 Website that pronounces simple words/sentences with different accents [3 english, 2 spanish].
