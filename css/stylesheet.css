@@ -10,6 +10,9 @@ html, body, nav, div, span, section, a, form, input{
 body {
   line-height: 1;
   background: #FEFEFA;
+/*  image from: http://subtlepatterns.com/light-fray/*/
+  background-image: url('grey.png');
+  background-repeat:repeat;
   font-family: 'Baumans' sans-serif;
 }
 
@@ -29,7 +32,7 @@ a:hover {
 
 /*=== NAV ===*/
 nav {
-  background: #21ABCD;
+  background: rgba(33, 171, 205, .5);
   font-size: 32px;
   height: 40px;
   color: white;
