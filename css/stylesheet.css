@@ -10,7 +10,7 @@ html, body, nav, div, span, section, a, form, input{
 body {
   line-height: 1;
   background: #FEFEFA;
-  font-family: sans-serif;
+  font-family: 'Baumans' sans-serif;
 }
 
 a {
@@ -32,6 +32,7 @@ nav {
   background: #21ABCD;
   font-size: 32px;
   height: 40px;
+  color: white;
 }
 
 nav .wrapper {
@@ -64,7 +65,7 @@ a.english {
 
 div.wrapper.spanish,
 a.spanish{
-  background: #DAFAD7;
+  background: #e7f3d7;
 }
 
 /*=== SECTION ===*/
