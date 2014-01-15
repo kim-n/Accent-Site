@@ -4,12 +4,17 @@ $(function() {
     $("section.spanish").hide()
 
     //SWITCH LANGUAGES
-    $("nav > a").on("click", function (event) {
+    $("nav a").on("click", function (event) {
       event.preventDefault();
       $("section").hide();
       $("section."+this.className).show();
-  
+     
+      other_language = this.className == "english" ? "spanish" : "english"
+       $("body > div").removeClass(other_language)
+       $("body > div").addClass(this.className)
+       
       document.title = document.title.substring(0,24) + " " + this.className;
+      console.log($("body").css("background"))
     });
 
     //PLAY SOUND
