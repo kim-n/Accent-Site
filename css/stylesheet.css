@@ -13,7 +13,7 @@ body {
 /*  image from: http://subtlepatterns.com/light-fray/*/
   background-image: url('grey.png');
   background-repeat:repeat;
-  font-family: 'Baumans' sans-serif;
+  font-family: 'Baumans', sans-serif;
 }
 
 a {
