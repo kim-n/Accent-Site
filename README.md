@@ -1,6 +1,6 @@
 ### Accents 
 #####Kimberly Narine
-[LINK!](http://kim-n.github.io/Accent-Site)
+[LINK!](http://kim-n.github.io/accent)
 
 Website that pronounces simple words/sentences with different accents [3 english, 2 spanish].
 
